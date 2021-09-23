@@ -1,18 +1,30 @@
-import React,{useState} from 'react';
+/* eslint-disable react/jsx-pascal-case */
+import React from 'react';
 import './App.css';
-import Welcome from './Welcome';
+import Usereducer from './fetch/Usereducer';
+import Usestate from './fetch/Usestate';
+import App_meterialui from './meterialui/App_meterialui';
+import YouTube from './meterialui/YouTube';
+import App_usecontext from './usecontext/App_usecontext';
+import Counter1 from './usereducer/Counter1';
+import Counter2 from './usereducer/Counter2';
+import App_useref from './Useref.js/App_useref';
 
 
- export const userContext = React.createContext();
+
+ 
 function App() {
-
-  const [name, setname] = useState("lalit");
-
   return (
-    <userContext.Provider value={name}>
-      hello world
-        <Welcome name={name} />
-      </userContext.Provider>
+   <>
+      {/* <App_usecontext/> */}
+      {/* <App_useref/> */}
+      {/* <App_meterialui /> */}
+      {/* <YouTube/> */}
+      {/* <Counter1/> */}
+      {/* <Counter2/> */}
+      {/* <Usestate/> */}
+      <Usereducer/>
+    </>
   )
 }
 
