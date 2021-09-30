@@ -23,7 +23,8 @@ function App() {
       {/* <Counter1/> */}
       {/* <Counter2/> */}
       {/* <Usestate/> */}
-      <Usereducer/>
+      {/* <Usereducer/> */}
+      <App_useref/>
     </>
   )
 }

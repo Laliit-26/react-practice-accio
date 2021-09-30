@@ -41,7 +41,7 @@ function Usereducer() {
         dispatch({type:'FETCH_ERROR'})
       })
   }, [])
-
+ 
   return (
     <div>
       {state.loading ? <h1>loading....:</h1> : state.post.title}
