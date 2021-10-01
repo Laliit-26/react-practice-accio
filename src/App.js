@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 import './App.css';
+import ClassBasic from './class/ClassBasic';
 import Usereducer from './fetch/Usereducer';
 import Usestate from './fetch/Usestate';
 import App_meterialui from './meterialui/App_meterialui';
@@ -28,7 +29,8 @@ function App() {
       {/* <Usereducer/> */}
       {/* <App_useref/> */}
       {/* <CounterPractice/> */}
-      <UseMemoHook/>
+      {/* <UseMemoHook/> */}
+      <ClassBasic/>
     </>
   )
 }
